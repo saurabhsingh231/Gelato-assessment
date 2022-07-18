@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Data Driven Test">
+    
+<listeners>
+
+<listener class-name="org.uncommons.reportng.HTMLReporter" />
+
+<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+
+</listeners>
+
+  <test thread-count="5" name="google Search">
+    <classes>
+      <class name="testcases.GoogleSearch"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test thread-count="5" name="Feeling lucky button">
+    <classes>
+      <class name="testcases.Feelinglucky"/>
+    </classes>
+  </test> <!-- Test -->
+
+<test thread-count="5" name="Select any launguage on google doodle">
+    <classes>
+      <class name="testcases.LaunguageSelect"/>
+    </classes>
+  </test> <!-- Test -->
+
+<test thread-count="5" name="Search by Image link">
+    <classes>
+      <class name="testcases.ImageSearch"/>
+    </classes>
+  </test> <!-- Test -->
+
+<test thread-count="5" name="Search by upload Images">
+    <classes>
+      <class name="testcases.UploadImageSearch"/>
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
+
+
+
+

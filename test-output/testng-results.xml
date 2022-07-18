@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="15" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Select by image link]]>
+    </line>
+    <line>
+      <![CDATA[<a href=C:\Users\BENQ\eclipse-workspace\TestProject\src\test\resources\Screenshots\camera.PNG>click to open screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[Doodle search fifa on doodle and page is able to scroll down ]]>
+    </line>
+    <line>
+      <![CDATA[<a href=C:\Users\BENQ\eclipse-workspace\TestProject\src\test\resources\Screenshots\doodle1.PNG>click to open screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=C:\Users\BENQ\eclipse-workspace\TestProject\src\test\resources\Screenshots\doodle2.PNG>click to open screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[Facebook search successfully executed]]>
+    </line>
+    <line>
+      <![CDATA[<a href=C:\Users\BENQ\eclipse-workspace\TestProject\src\test\resources\Screenshots\FB1.PNG>click to open screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=C:\Users\BENQ\eclipse-workspace\TestProject\src\test\resources\Screenshots\FB2.PNG>click to open screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[Select any language from dropdrop]]>
+    </line>
+    <line>
+      <![CDATA[<a href=C:\Users\BENQ\eclipse-workspace\TestProject\src\test\resources\Screenshots\Language.PNG>click to open screenshot</a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-07-19T00:43:36 IST" name="Default suite" finished-at="2022-07-19T00:44:06 IST" duration-ms="29658">
+    <groups>
+    </groups>
+    <test started-at="2022-07-19T00:43:36 IST" name="Default test" finished-at="2022-07-19T00:44:06 IST" duration-ms="29658">
+      <class name="base.TestBase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:base.TestBase@223d2c72]" started-at="2022-07-19T00:43:24 IST" name="setUp" finished-at="2022-07-19T00:43:36 IST" duration-ms="12042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:base.TestBase@223d2c72]" started-at="2022-07-19T00:44:06 IST" name="tearDown" finished-at="2022-07-19T00:44:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- base.TestBase -->
+      <class name="testcases.ImageSearch">
+        <test-method signature="imagesearch()[pri:0, instance:testcases.ImageSearch@6069db50]" started-at="2022-07-19T00:43:45 IST" name="imagesearch" finished-at="2022-07-19T00:43:50 IST" duration-ms="4757" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Select by image link]]>
+            </line>
+            <line>
+              <![CDATA[<a href=C:\Users\BENQ\eclipse-workspace\TestProject\src\test\resources\Screenshots\camera.PNG>click to open screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- imagesearch -->
+      </class> <!-- testcases.ImageSearch -->
+      <class name="testcases.UploadImageSearch">
+        <test-method signature="uploadimage()[pri:0, instance:testcases.UploadImageSearch@9597028]" started-at="2022-07-19T00:43:36 IST" name="uploadimage" finished-at="2022-07-19T00:43:45 IST" duration-ms="8625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadimage -->
+      </class> <!-- testcases.UploadImageSearch -->
+      <class name="testcases.Feelinglucky">
+        <test-method signature="feelinglucky()[pri:0, instance:testcases.Feelinglucky@4efbca5a]" started-at="2022-07-19T00:43:50 IST" name="feelinglucky" finished-at="2022-07-19T00:43:58 IST" duration-ms="7968" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Doodle search fifa on doodle and page is able to scroll down ]]>
+            </line>
+            <line>
+              <![CDATA[<a href=C:\Users\BENQ\eclipse-workspace\TestProject\src\test\resources\Screenshots\doodle1.PNG>click to open screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href=C:\Users\BENQ\eclipse-workspace\TestProject\src\test\resources\Screenshots\doodle2.PNG>click to open screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feelinglucky -->
+      </class> <!-- testcases.Feelinglucky -->
+      <class name="testcases.GoogleSearch">
+        <test-method signature="googlesearch()[pri:0, instance:testcases.GoogleSearch@1b7cc17c]" started-at="2022-07-19T00:43:58 IST" name="googlesearch" finished-at="2022-07-19T00:44:03 IST" duration-ms="5000" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Facebook search successfully executed]]>
+            </line>
+            <line>
+              <![CDATA[<a href=C:\Users\BENQ\eclipse-workspace\TestProject\src\test\resources\Screenshots\FB1.PNG>click to open screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<a href=C:\Users\BENQ\eclipse-workspace\TestProject\src\test\resources\Screenshots\FB2.PNG>click to open screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- googlesearch -->
+      </class> <!-- testcases.GoogleSearch -->
+      <class name="testcases.LaunguageSelect">
+        <test-method signature="selectlanguage()[pri:0, instance:testcases.LaunguageSelect@59662a0b]" started-at="2022-07-19T00:44:03 IST" name="selectlanguage" finished-at="2022-07-19T00:44:06 IST" duration-ms="3230" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Select any language from dropdrop]]>
+            </line>
+            <line>
+              <![CDATA[<a href=C:\Users\BENQ\eclipse-workspace\TestProject\src\test\resources\Screenshots\Language.PNG>click to open screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectlanguage -->
+      </class> <!-- testcases.LaunguageSelect -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
